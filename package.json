@@ -1,0 +1,38 @@
+{
+  "name": "node-red-fd-svg-drawing",
+  "version": "0.1.0",
+  "description": "A Node-RED Flexdash ui node to display an SVG drawing",
+  "dependencies": {
+    "@flexdash/node-red-flexdash": "^0.3.7"
+  },
+  "devDependencies": {
+  },
+  "author": "Bart Butenaers",
+  "keywords": [
+    "dashboard",
+    "flexdash",
+    "node-red",
+    "svg",
+    "draw"
+  ],
+  "bugs": {
+    "url": "https://github.com/bartbutenaers/node-red-fd-svg-drawing/issues"
+  },
+  "homepage": "https://github.com/bartbutenaers/node-red-fd-svg-drawing#README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartbutenaers/node-red-fd-svg-drawing.git"
+  },
+  "node-red": {
+    "version": "^2.0.0",
+    "nodes": {
+      "fd-svg-drawing": "svg_drawing.js"
+    }
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
