@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "A Node-RED Flexdash ui node to display an SVG drawing",
   "dependencies": {
-    "@flexdash/node-red-flexdash": "^0.3.7"
+    "@flexdash/node-red-flexdash": "^0.3.7",
+    "svgson": "^5.2.1",
+    "json-css-search": "^1.0.1"
   },
   "devDependencies": {
   },
