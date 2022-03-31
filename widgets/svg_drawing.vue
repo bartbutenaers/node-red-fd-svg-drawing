@@ -72,10 +72,7 @@ export default {
   // beforeDestroy is called just before the component is destroyed. It's a good place to
   // do some clean-up.
   beforeDestroy() {
-    if (this.ro) this.ro.disconnect()
-    this.ro = null
-    if (this.network) this.network.destroy()
-    this.network = null
+
   },
 
   // method are just simple method on the components that can be called from anywhere and have
